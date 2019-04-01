@@ -15,6 +15,19 @@
                 <show_total>0</show_total>
                 <force_installments_selection>0</force_installments_selection>
             </rm_pagseguro_cc>
+            <rm_pagseguro_boleto>
+                <active>1</active>
+                <payment_action>authorize_capture</payment_action>
+                <model>RicardoMartins\PagSeguro\Model\Method\Boleto</model>
+                <title>Boleto via PagSeguro UOL</title>
+                <order_status>pending</order_status>
+                <flag>42x20</flag>
+                <send_neworder_email>0</send_neworder_email>
+                <group_restriction>0</group_restriction>
+                <info_brl>1</info_brl>
+                <show_total>0</show_total>
+                <force_installments_selection>0</force_installments_selection>
+            </rm_pagseguro_boleto>
             <rm_pagseguro>
                 <title>PagSeguro UOL</title>
                 <model>RicardoMartins\PagSeguro\Model\Payment</model>

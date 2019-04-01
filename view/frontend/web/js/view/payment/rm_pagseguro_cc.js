@@ -12,6 +12,10 @@ define(
             {
                 type: 'rm_pagseguro_cc',
                 component: 'RicardoMartins_PagSeguro/js/view/payment/method-renderer/rm_pagseguro_ccmethod'
+            },
+            {
+                type: 'rm_pagseguro_boleto',
+                component: 'RicardoMartins_PagSeguro/js/view/payment/method-renderer/rm_pagseguro_boleto_method'
             }
         );
         /** Add view logic here if needed */
